@@ -98,7 +98,7 @@ public class start {
 			} else if (browser.equalsIgnoreCase("Chrome")) {
 				System.out.println("In Chrome Browser");
 				ChromeDriverPath = System.getProperty("user.dir") + props.getProperty("ChromeDriverWindows");
-				System.out.println("Driver path========" + ChromeDriverPath)
+				System.out.println("Driver path========" + ChromeDriverPath);
 				//System.setProperty("webdriver.chrome.driver", value)
 
 				System.setProperty("webdriver.chrome.driver", ChromeDriverPath);
